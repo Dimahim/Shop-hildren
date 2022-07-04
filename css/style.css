@@ -1,0 +1,291 @@
+/*        
+Author: http://bootstraptema.ru/
+*/
+/*BODY*/
+body {
+	font-size: 16px;
+	min-width: 320px;
+}
+ * {
+    margin: 0;
+    padding: 0;
+   }
+
+/*BODY*/
+/*SECTION-1*/
+.section1 {
+	height: 100%;
+	width: 100%;
+	background-image: url(images/background3.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #c0e3f9; 
+	font-family: 'Lora', serif;
+}
+.menu {
+	padding-top: 35px;
+	text-align: center;
+
+}
+.menu li {
+	font-size: 16px;
+	list-style-type: none;
+	padding: 8px;
+	display: inline;
+}
+.menu ul {
+	padding-top: 3%;
+}
+.menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu li a:hover,
+.menu li a:focus {
+	color: #4b95d2;
+}
+.feedback {
+	font-size: 18px;
+	padding-top: 20px;
+}
+.number {
+	font-weight: bold;
+}
+.bigText {
+	margin: 50px;
+}
+.bigText h3 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.bigText p {
+	font-size: 22px;
+	font-weight: bold;
+}
+.bigText button {
+	margin-top: 15px;
+}
+.img1 img {
+	width: 350px;
+	height: 230;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+
+/*SECTION-1*/
+/*SECTION-2*/
+.section2 {
+	height: 100%;
+	width: 100%;
+	background-color: #4b95d2;
+	text-align: center;
+	font-family: "Lora", sans-serif;
+}
+.section2 h3 {
+	margin-top: 15%;
+	font-weight: bold;
+	color: #c0e3f9;
+}
+.section2 span {
+	color: #f50707;
+	font-size: 30px;
+	font-weight: bold;
+}
+.section2 p {
+	font-weight: bold;
+	color: #0b4d76;
+}
+/*SECTION-2*/
+
+/*SECTION-3*/
+.section3 {
+	background-image: url(images/background3.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 75px;
+}
+.param_block {
+	text-align: center;
+	margin-bottom: 75px;
+}
+.param_block i {
+	font-size: 45px;
+	color: #f50707;
+}
+.param_block h4 {
+	text-transform: uppercase;
+	font-family: "Lora", sans-serif;
+
+}
+
+/*SECTION-3*/
+/*SECTION-4*/
+.section4 {
+	height: 100%;
+	width: 100%;
+	background-color: #c0e3f9;
+	
+}
+.p0 {
+	padding: 0 !important;
+
+}
+.p1 {
+	padding-bottom: 100px;
+}
+.galery {
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+	font-family: "Lora", sans-serif;
+}
+.work_block {
+	position: relative;
+}
+.image_wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(245,7,7,.4);
+	display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		opacity: 0;
+
+}
+.work_descr {
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+.work_block:hover .image_wrap{
+	opacity: 1;
+
+}
+/*SECTION-4*/
+/*SECTION-5*/
+.section5 {
+	height: 100%;
+	width: 100%;
+	background-color: #4b95d2;
+}
+.team_item {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.team_item h4{
+	font-family: "Lora", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.team_item span {
+	text-transform: uppercase;
+	color: #f50707;
+	font-size: 14px;
+}
+.team_item p {
+	margin-top: 10px;
+}
+.soc_btn {
+	border: 1px solid #c6cacc;
+	background-color: transparent;
+	color: #c6cacc;
+	width: 30px;
+	height: 30px;
+}
+/*SECTION-5*/
+/*SECTION-6*/
+.section6 {
+	background-image: url(images/background3.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #c0e3f9; 
+	font-family: 'Lora', serif;
+}
+.download_block {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align: center;
+	
+}
+.download_block h4 {
+	font-size: 26px;
+}
+
+/*SECTION-6*/
+/*SECTION-7*/
+.main_footer {
+	padding: 70px 0;
+	background-color: #4b95d2;
+}
+.footer_item {
+	text-align: center;
+}
+.footer_item h5 {
+	font-size: 16px;
+	font-family: "Lora", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+.footer_item p {
+	font-size: 14px;
+}
+.white_btn {
+	color: #fff;
+	border-color: #fff;
+}
+.copyright {
+	background-color: #313454;
+}
+.copy_txt {
+	color: #9d9fb2;
+	text-align: center;
+	padding: 15px;
+}
+.call_btn {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #f50707;
+	z-index: 999;
+	border: none;
+}
+/*SECTION-7*/
+
+/*MODAL*/
+#dlForm {
+	width: 70%;
+	margin: 0 auto;
+}
+#dlForm input {
+	margin-bottom: 10px;
+}
+.modal_img {
+	border-radius: 5%;
+}
+.modal-title {
+	text-align: center;
+	color: #f50707;
+}
+
+
+
+/*MODAL*/
+/*GOOGLE MAP*/
+.googleMaps iframe {
+	width: 850px;
+	height: 450px;
+}
+.googleMaps {
+	text-align: center;
+}
+/*GOOGLE MAP*/
